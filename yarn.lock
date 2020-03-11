@@ -2137,6 +2137,13 @@ progress@^2.0.0:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
+promisify@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/promisify/-/promisify-0.0.3.tgz#754db61f29ee6476ab543c45b464d21f5ef55686"
+  integrity sha1-dU22HynuZHarVDxFtGTSH171VoY=
+  dependencies:
+    when ""
+
 property-expr@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-2.0.0.tgz#d0e97bb6800c2d07af0a84617f62e2862849f87f"
@@ -2860,6 +2867,11 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
+when@:
+  version "3.7.8"
+  resolved "https://registry.yarnpkg.com/when/-/when-3.7.8.tgz#c7130b6a7ea04693e842cdc9e7a1f2aa39a39f82"
+  integrity sha1-xxMLan6gRpPoQs3J56Hyqjmjn4I=
+
 which-module@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
@@ -2965,10 +2977,10 @@ yargs@^13.1.0:
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
 
-yup@^0.28.2:
-  version "0.28.2"
-  resolved "https://registry.yarnpkg.com/yup/-/yup-0.28.2.tgz#614b7042b5537dc75633f9946bca65dd81e1a3e7"
-  integrity sha512-40cEt9uZvPWUnN6Q4XlRZO1MCjc/2HvI3UMzv+WSRGqibOzWY7Hc+3dbKTqmN5xn7Ar8LdtWzn/PtjdrKmo7NA==
+yup@^0.28.3:
+  version "0.28.3"
+  resolved "https://registry.yarnpkg.com/yup/-/yup-0.28.3.tgz#1ca607405a8adf24a5ac51f54bd09d527555f0ba"
+  integrity sha512-amVkCgFWe5bGjrrUiODkbIzrSwtB8JpZrQYSrfj2YsbRdrV+tn9LquWdZDlfOx2HXyfEA8FGnlwidE/bFDxO7Q==
   dependencies:
     "@babel/runtime" "^7.8.7"
     fn-name "~3.0.0"
